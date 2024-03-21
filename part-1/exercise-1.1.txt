@@ -1,0 +1,29 @@
+Script started on 2024-03-21 18:31:11+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="87" LINES="43"]
+[?2004h]0;sid@dash: ~/Desktop/work/DevopsWithDocker[01;32msid@dash[00m:[01;34m~/Desktop/work/DevopsWithDocker[00m$ docker run -d nginx
+[?2004l260a6bffb464b96adc7e8fdc0063dd74c087b916e8fc7a6b0bb4a6ef347006df
+[?2004h]0;sid@dash: ~/Desktop/work/DevopsWithDocker[01;32msid@dash[00m:[01;34m~/Desktop/work/DevopsWithDocker[00m$ docker run -d nginx
+[?2004lc710e764288576a0eb3e809a8c8d4f83bee3968d097d513b2883f4bcc153ceaa
+[?2004h]0;sid@dash: ~/Desktop/work/DevopsWithDocker[01;32msid@dash[00m:[01;34m~/Desktop/work/DevopsWithDocker[00m$ docker run -d nginx
+[?2004l380f5f68cd773c7efb2321188ab67b1b3fce83e34f78f71337f6599f8fe0712b
+[?2004h]0;sid@dash: ~/Desktop/work/DevopsWithDocker[01;32msid@dash[00m:[01;34m~/Desktop/work/DevopsWithDocker[00m$ docker ls
+[?2004ldocker: 'ls' is not a docker command.
+See 'docker --help'
+[?2004h]0;sid@dash: ~/Desktop/work/DevopsWithDocker[01;32msid@dash[00m:[01;34m~/Desktop/work/DevopsWithDocker[00m$ docker container ls
+[?2004lCONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS     NAMES
+380f5f68cd77   nginx     "/docker-entrypoint.…"   12 seconds ago   Up 10 seconds   80/tcp    nostalgic_proskuriakova
+c710e7642885   nginx     "/docker-entrypoint.…"   15 seconds ago   Up 14 seconds   80/tcp    inspiring_yonath
+260a6bffb464   nginx     "/docker-entrypoint.…"   19 seconds ago   Up 18 seconds   80/tcp    unruffled_northcutt
+[?2004h]0;sid@dash: ~/Desktop/work/DevopsWithDocker[01;32msid@dash[00m:[01;34m~/Desktop/work/DevopsWithDocker[00m$ docker s[Kon[K[Kcontianer[K[K[K[K[Kainer stop 38-[K0 c71
+[?2004l380
+c71
+[?2004h]0;sid@dash: ~/Desktop/work/DevopsWithDocker[01;32msid@dash[00m:[01;34m~/Desktop/work/DevopsWithDocker[00m$ docker ps  [K-a
+[?2004lCONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS                     PORTS     NAMES
+380f5f68cd77   nginx     "/docker-entrypoint.…"   34 seconds ago   Exited (0) 4 seconds ago             nostalgic_proskuriakova
+c710e7642885   nginx     "/docker-entrypoint.…"   37 seconds ago   Exited (0) 4 seconds ago             inspiring_yonath
+260a6bffb464   nginx     "/docker-entrypoint.…"   41 seconds ago   Up 40 seconds              80/tcp    unruffled_northcutt
+438f52d31a0d   nginx     "/docker-entrypoint.…"   2 minutes ago    Exited (0) 2 minutes ago             beautiful_mclaren
+94beddfc85ad   nginx     "/docker-entrypoint.…"   9 minutes ago    Exited (0) 6 minutes ago             amazing_diffie
+[?2004h]0;sid@dash: ~/Desktop/work/DevopsWithDocker[01;32msid@dash[00m:[01;34m~/Desktop/work/DevopsWithDocker[00m$ [?2004l
+exit
+
+Script done on 2024-03-21 18:32:14+05:30 [COMMAND_EXIT_CODE="0"]
